@@ -13,7 +13,8 @@ public class Shop {
 			break; //스위치문 멈추기
 		case "2": //grade가 2이라면
 			discount = price * 0.5; //discount에 연산해서 값 넣기
-			continue; /*다시 11번 라인으로 가기 -> 무한반복으로 이어짐
+			//continue;
+			/*다시 11번 라인으로 가기 -> 무한반복으로 이어짐
 			-> 루프를 나오지 못하는 에러 발생(오류는 25~28라인 참고)
 			break으로 수정하면 오류가 나지 않음*/
 		default: //grade가 1도 아니고 2도 아니라면
