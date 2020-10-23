@@ -1,18 +1,18 @@
 package Q164;
 
-class Student { //ÇĞ»ıÀÇ Á¤º¸¿Í ³ªÀÌ¸¦ °¡Áö°í ÀÖ´Â Å¬·¡½º
+class Student { //í•™ìƒì˜ ì •ë³´ì™€ ë‚˜ì´ë¥¼ ê°€ì§€ê³  ìˆëŠ” í´ë˜ìŠ¤
 	String name;
 	int age;
 }
 
 public class Test {
 	public static void main(String[] args) {
-		Student s1 = new Student(); //Èü¿¡ »õ·Î Student °´Ã¼ »ı¼ºÇÑ°É s1 °¡¸£Å°µµ·Ï ÇÔ
-		Student s2 = new Student(); //Èü¿¡ »õ·Î Student °´Ã¼ »ı¼ºÇÑ°É s2 °¡¸£Å°µµ·Ï ÇÔ
-		Student s3 = new Student(); //Èü¿¡ »õ·Î Student °´Ã¼ »ı¼ºÇÑ°É s3 °¡¸£Å°µµ·Ï ÇÔ
-		s1 = s3; //s3°¡ °¡¸£Ä¡°í ÀÖ´Â °ÍÀ» s1µµ °¡¸£Ä¡µµ·Ï ÇÔ
-		s3 = s2; //s2°¡ °¡¸£Ä¡°í ÀÖ´Â °ÍÀ» s3µµ °¡¸£Ä¡µµ·Ï ÇÔ
-		s2 = null; //s2´Â ¾Æ¹«°Íµµ °¡¸£Ä¡Áö´Â ¾Ê´Â »óÅÂ°¡ µÊ
+		Student s1 = new Student(); //í™ì— ìƒˆë¡œ Student ê°ì²´ ìƒì„±í•œê±¸ s1 ê°€ë¥´í‚¤ë„ë¡ í•¨
+		Student s2 = new Student(); //í™ì— ìƒˆë¡œ Student ê°ì²´ ìƒì„±í•œê±¸ s2 ê°€ë¥´í‚¤ë„ë¡ í•¨
+		Student s3 = new Student(); //í™ì— ìƒˆë¡œ Student ê°ì²´ ìƒì„±í•œê±¸ s3 ê°€ë¥´í‚¤ë„ë¡ í•¨
+		s1 = s3; //s3ê°€ ê°€ë¥´ì¹˜ê³  ìˆëŠ” ê²ƒì„ s1ë„ ê°€ë¥´ì¹˜ë„ë¡ í•¨
+		s3 = s2; //s2ê°€ ê°€ë¥´ì¹˜ê³  ìˆëŠ” ê²ƒì„ s3ë„ ê°€ë¥´ì¹˜ë„ë¡ í•¨
+		s2 = null; //s2ëŠ” ì•„ë¬´ê²ƒë„ ê°€ë¥´ì¹˜ì§€ëŠ” ì•ŠëŠ” ìƒíƒœê°€ ë¨
 		/*System.out.println(s1);
 		System.out.println(s2);
 		System.out.println(s3);*/

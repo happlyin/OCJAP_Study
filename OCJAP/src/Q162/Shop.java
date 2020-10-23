@@ -1,24 +1,24 @@
 package Q162;
 
 public class Shop {
-	public static void main(String[] args) { //¸ŞÀÎ½ÃÀÛ
-		int price = 1000; //price¿¡ 100ÀúÀå
-		int qty = 2; //qty¿¡ 2ÀúÀå
-		String grade = "2"; //"2"¸¦ grade°¡ °¡¸£Å°Åä·Ï ÇÔ
-		double discount = 0.0; //discount¿¡ 0.0ÀúÀå
+	public static void main(String[] args) { //ë©”ì¸ì‹œì‘
+		int price = 1000; //priceì— 100ì €ì¥
+		int qty = 2; //qtyì— 2ì €ì¥
+		String grade = "2"; //"2"ë¥¼ gradeê°€ ê°€ë¥´í‚¤í† ë¡ í•¨
+		double discount = 0.0; //discountì— 0.0ì €ì¥
 		
-		switch (grade) { //½ºÀ§Ä¡¹® grade°¡ ¹®ÀÚ¿­ÀÌ¿©¼­ °¡´É
-		case "1": //grade°¡ 1ÀÌ¶ó¸é
-			discount = price * 0.1; //discount¿¡ ¿¬»êÇØ¼­ °ª ³Ö±â
-			break; //½ºÀ§Ä¡¹® ¸ØÃß±â
-		case "2": //grade°¡ 2ÀÌ¶ó¸é
-			discount = price * 0.5; //discount¿¡ ¿¬»êÇØ¼­ °ª ³Ö±â
+		switch (grade) { //ìŠ¤ìœ„ì¹˜ë¬¸ gradeê°€ ë¬¸ìì—´ì´ì—¬ì„œ ê°€ëŠ¥
+		case "1": //gradeê°€ 1ì´ë¼ë©´
+			discount = price * 0.1; //discountì— ì—°ì‚°í•´ì„œ ê°’ ë„£ê¸°
+			break; //ìŠ¤ìœ„ì¹˜ë¬¸ ë©ˆì¶”ê¸°
+		case "2": //gradeê°€ 2ì´ë¼ë©´
+			discount = price * 0.5; //discountì— ì—°ì‚°í•´ì„œ ê°’ ë„£ê¸°
 			//continue;
-			/*´Ù½Ã 11¹ø ¶óÀÎÀ¸·Î °¡±â -> ¹«ÇÑ¹İº¹À¸·Î ÀÌ¾îÁü
-			-> ·çÇÁ¸¦ ³ª¿ÀÁö ¸øÇÏ´Â ¿¡·¯ ¹ß»ı(¿À·ù´Â 25~28¶óÀÎ Âü°í)
-			breakÀ¸·Î ¼öÁ¤ÇÏ¸é ¿À·ù°¡ ³ªÁö ¾ÊÀ½*/
-		default: //grade°¡ 1µµ ¾Æ´Ï°í 2µµ ¾Æ´Ï¶ó¸é
-			System.out.println("Thank You!"); //Ãâ·ÂÈÄ ¸ØÃß±â
+			/*ë‹¤ì‹œ 11ë²ˆ ë¼ì¸ìœ¼ë¡œ ê°€ê¸° -> ë¬´í•œë°˜ë³µìœ¼ë¡œ ì´ì–´ì§
+			-> ë£¨í”„ë¥¼ ë‚˜ì˜¤ì§€ ëª»í•˜ëŠ” ì—ëŸ¬ ë°œìƒ(ì˜¤ë¥˜ëŠ” 25~28ë¼ì¸ ì°¸ê³ )
+			breakìœ¼ë¡œ ìˆ˜ì •í•˜ë©´ ì˜¤ë¥˜ê°€ ë‚˜ì§€ ì•ŠìŒ*/
+		default: //gradeê°€ 1ë„ ì•„ë‹ˆê³  2ë„ ì•„ë‹ˆë¼ë©´
+			System.out.println("Thank You!"); //ì¶œë ¥í›„ ë©ˆì¶”ê¸°
 		}
 		System.out.println(discount);
 	}

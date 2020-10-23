@@ -1,18 +1,18 @@
 package Q161;
 
 public class Vowel {
-	private char var; //Å¬·¡½º º¯¼ö·Î ÃÊ±âÈ­°¡ µÈ´Ù. ""·Î
-	public static void main(String[] args) { //¸ŞÀÎ ½ÃÀÛ¹®
-		char var1 = 'a'; //ÃÊ±â°ªÀÌ ÀÚµ¿À¸·Î ¼³Á¤ÀÌ µÇÁö ¾Ê°í 'a'¸¦ °ªÀ¸·Î ÁÜ
-		char var2 = var1; //var1ÀÌ °¡¸£Å°´Â 'a'¸¦ °¡¸£Å°°Ô ÇÔ
-		var2 = 'e'; //var2°¡ 'e'°¡¸£Å°ÄÉ º¯°æ
+	private char var; //í´ë˜ìŠ¤ ë³€ìˆ˜ë¡œ ì´ˆê¸°í™”ê°€ ëœë‹¤. ""ë¡œ
+	public static void main(String[] args) { //ë©”ì¸ ì‹œì‘ë¬¸
+		char var1 = 'a'; //ì´ˆê¸°ê°’ì´ ìë™ìœ¼ë¡œ ì„¤ì •ì´ ë˜ì§€ ì•Šê³  'a'ë¥¼ ê°’ìœ¼ë¡œ ì¤Œ
+		char var2 = var1; //var1ì´ ê°€ë¥´í‚¤ëŠ” 'a'ë¥¼ ê°€ë¥´í‚¤ê²Œ í•¨
+		var2 = 'e'; //var2ê°€ 'e'ê°€ë¥´í‚¤ì¼€ ë³€ê²½
 		
-		Vowel obj1 = new Vowel(); //¿ÀºêÁ§Æ® »ı¼º, obj1Àº Èü ¿µ¾ï¿¡ »õ·Î ¸¸µé¾îÁø Vowe1¸¦ °¡¸£Å´
-		Vowel obj2 = obj1; //obj1ÀÌ °¡¸£Å°´Â °ÍÀ» obj2°¡ °¡¸£Å°µµ·Ï ÇÔ
-		obj1.var = 'o'; //obj1 °ú obj2ÀÇ var°ªÀ» 'o'À¸·Î º¯°æÇÑ´Ù.
-		obj2.var = 'i'; //obj1 °ú obj2ÀÇ var°ªÀ» 'i'À¸·Î º¯°æÇÑ´Ù.
+		Vowel obj1 = new Vowel(); //ì˜¤ë¸Œì íŠ¸ ìƒì„±, obj1ì€ í™ ì˜ì–µì— ìƒˆë¡œ ë§Œë“¤ì–´ì§„ Vowe1ë¥¼ ê°€ë¥´í‚´
+		Vowel obj2 = obj1; //obj1ì´ ê°€ë¥´í‚¤ëŠ” ê²ƒì„ obj2ê°€ ê°€ë¥´í‚¤ë„ë¡ í•¨
+		obj1.var = 'o'; //obj1 ê³¼ obj2ì˜ varê°’ì„ 'o'ìœ¼ë¡œ ë³€ê²½í•œë‹¤.
+		obj2.var = 'i'; //obj1 ê³¼ obj2ì˜ varê°’ì„ 'i'ìœ¼ë¡œ ë³€ê²½í•œë‹¤.
 		
-		System.out.println(var1 + ", " + var2); //Áö¿ªº¯¼ö var1°ú var2¸¦ Âï¾î¼­ "a, e"°¡ ÂïÈù´Ù.
-		System.out.print(obj1.var + ", " + obj2.var); //µÑ´Ù °°Àº °Å¸¦ °¡¸£Å°°í ÀÖ°í ÀÚµ¿ ÃÊ±âÈ­¿©¼­ "i, i"°¡ ÂïÈù´Ù.
+		System.out.println(var1 + ", " + var2); //ì§€ì—­ë³€ìˆ˜ var1ê³¼ var2ë¥¼ ì°ì–´ì„œ "a, e"ê°€ ì°íŒë‹¤.
+		System.out.print(obj1.var + ", " + obj2.var); //ë‘˜ë‹¤ ê°™ì€ ê±°ë¥¼ ê°€ë¥´í‚¤ê³  ìˆê³  ìë™ ì´ˆê¸°í™”ì—¬ì„œ "i, i"ê°€ ì°íŒë‹¤.
 	}
 }

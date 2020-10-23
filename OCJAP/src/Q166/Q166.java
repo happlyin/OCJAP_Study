@@ -3,10 +3,10 @@ package Q166;
 import java.time.LocalDate;
 
 public class Q166 {
-	public static void main(String[] args) { //¸ŞÀÎ¹® ½ÃÀÛ
-		LocalDate data = LocalDate.of(2012, 01, 32); //¿¡·¯
-		//³¯Â¥¿¡ 1ºÎÅÍ 31±îÁö¸¸ µé¾î°¥ ¼ö ÀÖ´Âµ¥ 32ÀÌ¸¦ ÀÔ·ÂÇØ¼­ ¿À·ù°¡ ³­´Ù.
-		data.plusDays(10); //10ÀÏ ÈÄ¿¡ ³¯Â¥¸¦ ¸»ÇÑ´Ù.
-		System.out.println(data); //data¸¦ Ãâ·ÂÇÑ´Ù.
+	public static void main(String[] args) { //ë©”ì¸ë¬¸ ì‹œì‘
+		LocalDate data = LocalDate.of(2012, 01, 32); //ì—ëŸ¬
+		//ë‚ ì§œì— 1ë¶€í„° 31ê¹Œì§€ë§Œ ë“¤ì–´ê°ˆ ìˆ˜ ìˆëŠ”ë° 32ì´ë¥¼ ì…ë ¥í•´ì„œ ì˜¤ë¥˜ê°€ ë‚œë‹¤.
+		data.plusDays(10); //10ì¼ í›„ì— ë‚ ì§œë¥¼ ë§í•œë‹¤.
+		System.out.println(data); //dataë¥¼ ì¶œë ¥í•œë‹¤.
 	}
 }

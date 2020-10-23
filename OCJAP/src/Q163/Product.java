@@ -1,18 +1,18 @@
 package Q163;
 
 public class Product {
-	int id; //º¯¼ö Á¤ÀÇ
+	int id; //ë³€ìˆ˜ ì •ì˜
 	String name;
-	public Product(int id, String name) { //»ı¼ºÀÚ ¼±¾ğÇØ¼­ ÃÊ±âÈ­ ÇÏ´Â ºÎºĞ
+	public Product(int id, String name) { //ìƒì„±ì ì„ ì–¸í•´ì„œ ì´ˆê¸°í™” í•˜ëŠ” ë¶€ë¶„
 		this.id = id;
 		this.name = name;
 	}
-	public static void main(String[] args) { //¸ŞÀÎ¹®
-		Product p1 = new Product(101, "Pen"); //Èü °ø°£¿¡ ProductÅ¬·¡½º ¸¸µé°í ±×°Å¸¦ p1ÀÌ °¡¸£Å°µµ·Ï ÇÑ´Ù.
-		Product p2 = new Product(101, "Pen"); //Èü °ø°£¿¡ ProductÅ¬·¡½º ¸¸µé°í ±×°Å¸¦ p2ÀÌ °¡¸£Å°µµ·Ï ÇÑ´Ù.
-		Product p3 = p1; //p1ÀÌ °¡¸£Å°´Â °ÍÀ» p3µµ °¡¸£Å°°Ô ÇÑ´Ù.
-		boolean ans1 = p1 == p2; //¼­·Î Èü °ø°£ÀÇ ´Ù¸¥ °´Ã¼¸¦ °¡¸£Å°°í ÀÖ±â ¶§¹®¿¡ falser°¡ µÈ´Ù.
-		boolean ans2 = p1.name.equals(p2.name); //°ªÀº °°À¸¹Ç·Î true°¡ µÈ´Ù.
-		System.out.println(ans1 + ":" + ans2); //±×·¡¼­ "false:true"¸¦ Ãâ·ÂÇÑ´Ù.
+	public static void main(String[] args) { //ë©”ì¸ë¬¸
+		Product p1 = new Product(101, "Pen"); //í™ ê³µê°„ì— Productí´ë˜ìŠ¤ ë§Œë“¤ê³  ê·¸ê±°ë¥¼ p1ì´ ê°€ë¥´í‚¤ë„ë¡ í•œë‹¤.
+		Product p2 = new Product(101, "Pen"); //í™ ê³µê°„ì— Productí´ë˜ìŠ¤ ë§Œë“¤ê³  ê·¸ê±°ë¥¼ p2ì´ ê°€ë¥´í‚¤ë„ë¡ í•œë‹¤.
+		Product p3 = p1; //p1ì´ ê°€ë¥´í‚¤ëŠ” ê²ƒì„ p3ë„ ê°€ë¥´í‚¤ê²Œ í•œë‹¤.
+		boolean ans1 = p1 == p2; //ì„œë¡œ í™ ê³µê°„ì˜ ë‹¤ë¥¸ ê°ì²´ë¥¼ ê°€ë¥´í‚¤ê³  ìˆê¸° ë•Œë¬¸ì— falserê°€ ëœë‹¤.
+		boolean ans2 = p1.name.equals(p2.name); //ê°’ì€ ê°™ìœ¼ë¯€ë¡œ trueê°€ ëœë‹¤.
+		System.out.println(ans1 + ":" + ans2); //ê·¸ë˜ì„œ "false:true"ë¥¼ ì¶œë ¥í•œë‹¤.
 	}
 }
